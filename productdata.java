@@ -1,7 +1,8 @@
 package getlink;
 
 public class productdata {
-
+   	
+	int pid;
 	String Name;
 	String Href;
     String Imgsrc;
@@ -18,8 +19,9 @@ public class productdata {
 	
 	
 	
-	public productdata(String name, String price, String href, String imgsrc, String imgloc)
+	public productdata(int pid,String name, String price, String href, String imgsrc, String imgloc)
 	{
+		pid=pid;
 		Name = name;
 		Href = href;
 		RegularPrice = price;
